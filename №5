@@ -1,0 +1,18 @@
+#include<math.h>
+using namespace std;
+int main()
+{
+	double A, B,X;
+	cout << "Enter variable A(!=0) and B:" << endl;
+	cin >> A >> B;
+	if (A != 0)
+	{
+		X = -B / A;
+		cout << "equation solution X= " << X;
+	}
+	else {
+		cout << "Wrong data!";
+	}
+	
+	return 0;
+}
