@@ -1,0 +1,20 @@
+#1
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double a;
+	cout << "Vvedite gradusnuy meru ugla a=(0;360): " << endl;
+	cin >> a;
+	if (a>0 && a<360)
+	{
+		
+		cout << "Radiannaya mera ugla a = " << (a * 3.14) / 180;
+	}
+	else
+	{
+		cout << "Wrong data";
+	}
+	return 0;
+}
