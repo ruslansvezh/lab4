@@ -1,0 +1,17 @@
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+	double X,A,Y,K;
+	cout << "Enter candy weight(kg): ";
+	cin >> X;
+	cout << "Enter the price of sweets(rub): ";
+	cin >> A;
+	K = A / X;
+	cout << "1 kg sweets will cost: " << K << endl;
+	cout << " Enter candy weight Y(kg): ";
+	cin >> Y;
+	cout << Y << " kg sweets will cost: " << K * Y;
+	return 0;
+}
