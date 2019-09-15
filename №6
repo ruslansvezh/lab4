@@ -1,0 +1,15 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+double A1, B1, C1, A2, B2, C2, p;
+cout << "Enter A1, B1, C1, A2, B2, C2: " << endl;
+cin >> A1 >> B1 >> C1 >> A2 >> B2 >> C2;
+p = A1 * B2 - B1 * A2;
+cout << "result : " << endl;
+cout << "x = " << (C1* B2 - B1 * C2) / p << endl;
+cout << "y = " << (A1* C2 - A2 * C1) / p << endl;
+cout << endl;
+return 0;
+}
