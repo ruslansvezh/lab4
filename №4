@@ -10,14 +10,7 @@ int main()
 	cin >> v2;
 	cout << "Enter distance between cars(s) : ";
 	cin >> s;
-	if (v1 > v2)
-	{
-		v3 = v1 - v2; //Скорость удаления
-	}
-	else
-	{
-		v3 = v2 - v1;
-	}
+	v3 = v1 + v2; //Скорость удаления
 	cout << "Enter driving time:";
 	cin >> T;
 	cout << "Distans between cars across " << T << " hours well be:" << T * v3 +s;
